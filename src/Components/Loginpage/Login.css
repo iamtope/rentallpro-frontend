@@ -1,0 +1,22 @@
+.form {
+	margin: auto;
+	max-width: 450px;
+}
+.logImg {
+	height: 20rem;
+	width: 25rem;
+}
+.label {
+	margin-bottom: 0;
+}
+input[type='password'],
+input[type='email'] {
+	padding: 25px;
+}
+
+@media only screen and (max-width: 400px) {
+	.logImg {
+		height: 20rem;
+		width: 20rem;
+	}
+}

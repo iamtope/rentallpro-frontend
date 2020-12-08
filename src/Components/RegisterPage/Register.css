@@ -1,0 +1,23 @@
+.form {
+	margin: auto;
+	max-width: 450px;
+}
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+	padding: 25px;
+}
+.label{
+	margin-bottom: 0;
+}
+.afri-img{
+	height: 20px;
+	cursor: pointer;	
+}
+.bg{
+	background-image: url(../../images/BG.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	height: 100vh;
+}
